@@ -32,7 +32,7 @@ st.title('NVIDA Chatbot')
 prompt = ChatPromptTemplate.from_template(
     """
     Answer the questions based on the provided context only.
-    Provide the most accurate response based on the question
+    Provide the most accurate and most detailed response based on the question. Include detailed and accurate response.
     <context>
     {context}
     <context>
